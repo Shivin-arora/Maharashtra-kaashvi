@@ -1,0 +1,77 @@
+body{
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+.main{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 5px;
+    padding-right: 10px;
+    
+    
+}
+.main2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.lightImages{
+    opacity:0.6;
+    border: black solid 5px;
+    width:19%;
+    height:200px;
+    border-radius: 15px;
+}
+.lightImages:hover{
+    opacity:0.45;
+   
+}
+.qlbutton{
+    width:300px;
+    height:50px;
+    font-size: 30px;
+    border-radius: 5px;
+    border-left-width: 12px;
+    cursor:pointer;
+    background-image: linear-gradient(to right,rgb(253, 127, 148),rgb(108, 205, 218),rgb(212, 241, 255));
+}
+.qlbuttonDark{
+    width:300px;
+    height:50px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,rgb(224, 75, 100),rgb(48, 184, 202),rgb(137, 214, 253));
+    border-width:4px;
+}
+.bookHotels{
+    font-size: 40px;
+    font-weight:bold;
+    margin-left: 280px;
+}
+.bookingImg{
+    position:absolute;
+    top:780px;
+}
+.ta{
+    width:1327px;
+    height:50px;
+    font-size: 25px;
+    border-width: 3px;
+    background-color: red;
+    color:white;
+    border-radius: 15px;
+    cursor:pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ta:hover{
+    background-color: rgb(250, 56, 56);
+    color:rgb(209, 209, 209);
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+}
+
